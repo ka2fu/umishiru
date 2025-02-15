@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+#controll-panel {
+	position: relative;
+	z-index: 10;
+	top: 2rem;
+	left: 2rem;
+}
