@@ -1,6 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
 	//This example renders a scatterplot with DeckGL, on top of a basemap rendered with maplibre-gl, using a map style JSON from Carto.
-	const { DeckGL, ScatterplotLayer, WebMercatorViewport, BitmapLayer } = deck;
+	const {
+		DeckGL,
+		ScatterplotLayer,
+		WebMercatorViewport,
+		BitmapLayer,
+		_GlobeView,
+		TileLayer,
+		COORDINATE_SYSTEM,
+	} = deck;
 
 	const initialViewState = {
 		longitude: 137,
